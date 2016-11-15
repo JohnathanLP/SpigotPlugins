@@ -1,0 +1,4 @@
+name: EyspSurvival
+main: eyspSurvival.EyspSurvival
+version: 1.0
+commands:
