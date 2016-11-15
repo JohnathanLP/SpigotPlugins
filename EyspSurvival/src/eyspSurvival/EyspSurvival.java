@@ -17,6 +17,8 @@ public class EyspSurvival extends JavaPlugin{
 		getServer().getPluginManager().registerEvents(new ElytraDropListener(), this);
 		//This line calls our CreateRecipes method. Go to RecipeHelper class to learn more.
 		RecipeHelper.CreateRecipes();
+		//This line handles the NoobCommand. Go to NoobCommand class to learn more.
+		this.getCommand("noob").setExecutor(new NoobCommand());
 	}
 	@Override
 	public void onDisable(){

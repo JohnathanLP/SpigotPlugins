@@ -2,3 +2,6 @@ name: EyspSurvival
 main: eyspSurvival.EyspSurvival
 version: 1.0
 commands:
+  noob:
+    description: Gives noobs a crafting table to get started
+    usage: /noob

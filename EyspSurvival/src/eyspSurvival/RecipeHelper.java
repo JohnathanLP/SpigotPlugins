@@ -36,7 +36,7 @@ public class RecipeHelper {
 		//Then we update the item with our new metadata.
 		emeraldSword.setItemMeta(swordMeta);
 		//Now we add a looting enchantment
-		emeraldSword.addEnchantment(Enchantment.LOOT_BONUS_MOBS, 1);
+		emeraldSword.addEnchantment(Enchantment.LOOT_BONUS_MOBS, 3);
 		/*
 		 * Now we have to create the recipe. We first create a ShapedRecipe called
 		 * swordRecipe, and set it up to give us one of our emeraldSword stacks we
