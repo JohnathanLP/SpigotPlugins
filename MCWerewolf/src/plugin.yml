@@ -1,0 +1,13 @@
+name: MCWerewolfPlugin
+main: io.eysp.MCWerewolfPlugin
+version: 1.0
+commands:
+  startGame:
+    description: Begins a new game of Werewolf
+    usage: /startGame
+  endGame:
+    description: Ends the current game of Werewolf
+    usage: /endGame
+  votedPlayer:
+    description: Temporary command - kills a player who was voted out
+    usage: /votedPlayer
