@@ -1,0 +1,8 @@
+name: TemplatePlugin
+main: template_plugin.TemplatePlugin
+version: 1.0
+api-version: 1.16
+commands:
+  greeting:
+    description: Example Command, greets you
+    usage: /greeting
